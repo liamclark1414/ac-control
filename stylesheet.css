@@ -1,0 +1,73 @@
+/* Wider menu so room rows have space for the bar. */
+.ac-menu {
+    min-width: 21em;
+}
+
+/* Header: big house-average temperature */
+.ac-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ac-header-temp {
+    font-size: 2.6em;
+    font-weight: 800;
+    margin-right: 14px;
+    font-feature-settings: "tnum";
+}
+.ac-header-title {
+    font-weight: bold;
+}
+.ac-header-summary {
+    font-size: 0.9em;
+}
+
+/* Room rows */
+.ac-room-row {
+    border-radius: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.ac-room-body {
+    spacing: 6px;
+}
+.ac-room-top {
+    spacing: 4px;
+}
+.ac-room-badge {
+    border-radius: 99px;
+    padding: 8px;
+    margin-right: 8px;
+}
+.ac-room-name {
+    font-weight: bold;
+}
+.ac-room-sub {
+    spacing: 4px;
+}
+.ac-room-current {
+    font-size: 0.9em;
+    font-weight: bold;
+    font-feature-settings: "tnum";
+    margin-right: 4px;
+}
+.ac-room-status {
+    font-size: 0.85em;
+}
+
+/* - target + */
+.ac-target-label {
+    min-width: 2.6em;
+    text-align: center;
+    font-size: 1.15em;
+    font-weight: bold;
+    font-feature-settings: "tnum";
+}
+.ac-temp-button {
+    padding: 6px;
+    border-radius: 99px;
+}
+
+/* Gradient bar under each room */
+.ac-temp-bar {
+    height: 14px;
+}

@@ -1,0 +1,7 @@
+{
+  "uuid": "ac-control@liam-clark",
+  "name": "AC Control",
+  "description": "Air conditioner controls in the top bar (simulated for now).",
+  "shell-version": ["48", "49", "50"],
+  "url": ""
+}
